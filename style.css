@@ -1,0 +1,46 @@
+body{
+    background:rgb(171,219,227); 
+}
+.card{
+    background-color: #98C2E6;
+    border-radius: 3%;
+    z-index: 5;
+    box-shadow: 2px 2px 5px 1px #438ec4;
+    color: darkslategray;
+    transition:.5s;
+    border:  darkslateblue solid ;
+}
+ .card:hover{
+     transform: scale(105.6%);
+     box-shadow: 3px 4px 6px 2px #438ec4;
+     cursor: pointer;
+}
+
+input:hover{
+    border:black solid;
+    cursor: pointer;
+}
+
+i,h1{
+    transition: 2s;
+}
+
+i:hover{
+    transform: rotate(25deg) scale(1.5);
+    cursor:pointer;
+}
+
+.card:active{
+    background-color:darkslateblue;
+}
+
+.card-header{
+    background-color: darkslateblue ;
+    color:#98C2E6;
+}
+
+@media(max-width:400px){
+    .far{
+        display: none !important;
+    }
+}
